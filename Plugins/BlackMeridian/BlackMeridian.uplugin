@@ -1,0 +1,33 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Black Meridian Runtime",
+  "Description": "Modular first-person combat, mission, and Signal Control systems.",
+  "Category": "Gameplay",
+  "CreatedBy": "Black Meridian Team",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Plugins": [
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "ProceduralMeshComponent",
+      "Enabled": true
+    }
+  ],
+  "Modules": [
+    {
+      "Name": "BlackMeridianRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "BlackMeridianTests",
+      "Type": "DeveloperTool",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

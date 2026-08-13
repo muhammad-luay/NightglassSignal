@@ -1,0 +1,32 @@
+# Unreal Engine generated output
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+artifacts/
+
+# Generated plugin output
+Plugins/**/Binaries/
+Plugins/**/DerivedDataCache/
+Plugins/**/Intermediate/
+Plugins/**/Saved/
+
+# Local probe/path accidents and nested copies
+/"PWD/
+/$PWD/
+/${PWD}/
+/NightglassSignal/
+
+# Local/editor noise
+.DS_Store
+*.log
+*.tmp
+*.pyc
+__pycache__/
+Scripts/__pycache__/
+Build/Mac/FileOpenOrder/
+
+# Local IDE state
+.vscode/
+.idea/
+*.xcuserstate
